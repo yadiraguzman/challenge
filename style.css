@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    box-sizing: border-box;
+   
+}
+
+.imagen_logo{
+    width: 7.5rem;
+    height: 3rem;
+    margin: 2.5rem 0 0 0;
+    
+}
+
+.contenido{
+    display: flex;
+    gap: 0,0%;
+    margin: 0 0px 3.2rem 9.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0 0 0px;
+    width: 43.8rem;
+    height: 28.2rem;
+    text-align: center;
+    background-color: #e5e5e5;
+    border: none;
+}
+.encriptador{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    justify-content: center;
+    gap: 3%;
+    height: 33.4rem;
+    width: 20.6rem;
+    margin: 0px 50px 0px;
+    background-color: white;
+    padding: 3.2rem;
+    border-radius: 2rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: .3rem .3rem 1rem rgba(0, 0, 0, 0.3);
+     
+   
+}
+
+.parrafo_encrptador{
+    font-size: 1rem;
+   
+    
+}
+.contenedor_botones{
+    display: flex;
+    
+}
+.boton:hover {
+    background-color: rgb(115, 134, 240);
+    
+}
+.boton{
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    margin: 0 1.9rem 0 0;
+    padding: .7rem;
+    height: 4.2rem;
+    width: 20.5rem;
+    border-radius: 1.5rem;
+    background-color: #D8DFE8;
+    border-color: #0A3871;
+}
+
+.botonEncriptar{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    margin: 0 1.9rem 0 0;
+    padding: .7rem;
+    height: 4.2rem;
+    width: 20.5rem;
+    border-radius: 1.5rem;
+    background-color: #0A3871;
+    
+}
+.botonEncriptar:hover {
+    background-color: rgb(131, 147, 238);
+  }
+
+
+.texto_de_exclamacion{
+    font-family: "Inter", sans-serif;
+    font-size: .8rem;
+    color: #495057;
+    display: flex;
+    margin: 0 0 1.3rem 0;
+    gap: 1.5%;
+}
+
+.textoyBotones{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pie_de_pagina{
+    background-color: #0A3871;
+    display: flex;
+    gap: 10%;
+    padding: 1.3rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    
+}
+
+.realizado{
+    color: white;
+}
+
+.linkedin{
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    gap: 35%;  
+    align-items: center; 
+}
+
+.linkedin a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.github{
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    gap: 35%;
+}
+
+.github a{
+    text-decoration: none;
+    color: white;
+}
+
+#aqui-aparece-el-mensaje{
+    
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #495057; 
+    overflow-wrap:first-line;
+    word-wrap: break-word;
+    word-wrap:inherit;
+     
+    
+}
+
+#boton-copiado{
+    
+    background-color: white;
+    border-radius: 1.5rem;
+    border-color: #0A3871;
+    padding: 1.3rem;
+    width: 21rem ;
+    height: 4.2rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #0A3871   
+}
+#boton-copiado:hover {
+    background-color: rgb(115, 134, 240);
+    
+}
+ @media(max-width:1200px){
+    .imagen_logo{
+        width: 5.5rem;
+        height: 2.1rem;
+        margin: 2.5rem 0 0 0;   
+    }
+    
+    .contenido{
+        flex-direction: column;
+    }
+    .Muñeco{
+        display: none;
+    }
+    .encriptador{
+        width: 36.8rem;
+        height: 6.5rem;
+        margin: 15% 0% 5%;
+    }
+    
+    @media(max-width: 750px){
+        .imagen_logo{
+            width: 5.5rem;
+            height: 2.2rem;
+            margin: 1.25rem .7rem .7rem 0; 
+        }  
+        .contenido{
+            display: flex;
+            gap: 0,0%;
+            margin: 0 0px 3.2rem 1.25rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .encriptador{
+            width: 16.5rem;
+            height: 6.25rem;
+            margin: 15% 0% 5%; 
+            font-size: 1rem;
+            padding: 3.2rem;
+        }
+        .titulo{
+           width: 22.8rem;
+           height: 25rem;
+        }
+        .boton{
+          width: 22.8rem;
+          height: 3.5rem;
+        }
+        .contenedor_botones{
+            display: flex;
+            flex-direction:column;
+            
+        }
+        .botonEncriptar{
+            color: white;
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
+            margin: 0 1.9rem 0 0;
+            padding: .7rem;
+            height: 4.2rem;
+            width: 20.5rem;
+            border-radius: 1.5rem;
+            background-color: #0A3871;
+            
+        }
+        .boton{
+            color: #0A3871;
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
+            margin: 0 1.9rem 0 0;
+            padding: .7rem;
+            height: 4.2rem;
+            width: 20.5rem;
+            border-radius: 1.5rem;
+            background-color: #D8DFE8;
+            border-color: #0A3871;
+        }
+        #boton-copiado{
+            height: .91rem;
+            width: 19.5rem;
+            padding: 1.10rem;
+            
+        }
+        .pie_de_pagina{
+            background-color: #0A3871;
+            display: flex;
+            gap: 20%;
+            padding: 1.3rem;
+            font-family: "Inter", sans-serif;
+            font-size: .7rem;
+            
+        }
+        
+        .linkedin{
+            width: 1.0rem;
+            height: 1.0rem;
+            display: flex;
+            gap: 35%;  
+            align-items: center; 
+        }
+
+        .github{
+            width: 1.0rem;
+            height: 1.0rem;
+            display: flex;
+            gap: 35%;
+        }
+        
+       
+
+    }
+}

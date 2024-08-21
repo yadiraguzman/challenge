@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <img class="imagen_logo" src="/img/Logo-1.png" alt="Logo de Alura">
+    <main class="contenido">
+        
+        <section class="contenido_seccion">
+        <textarea class="titulo" placeholder="Escribe tu texto aquí..." id="encriptador"></textarea> 
+        <div class="textoyBotones">
+            <figure class="texto_de_exclamacion">
+                <img src="/img/bi_exclamation-circle-fill-1.png" alt="signo de exclamacion">
+                <figcaption><small>Solo letras minúsculas y sin acentos</small></figcaption>
+            </figure>
+            
+            <div class="contenedor_botones">
+                <button onclick="encryptText()" class="botonEncriptar" >Encriptar</button>
+                <button onclick="decryptedText()" class="boton" >Desencriptar</button>
+            </div>
+        </div>
+     </section> 
+     <aside class="encriptador" id="aqui_se_imprime">
+        <img class="Muñeco" src="/img/Muñeco.png" alt="Muñeco examinando un diamante">
+        <h2>Ningún mensaje fue encontrado</h2>
+        <p class="parrafo_encrptador">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </aside>
+    </main>
+      
+<footer class="pie_de_pagina">
+<p class="realizado">Ralizado por Yadira Guzmán</p>
+    <div class="linkedin">
+    <img src="/favicon/linkedin-brands-solid.svg" alt="logo linkedin">
+    <a href="https://linkedin.com/in/yadira-guzman-hernandez">linkedin</a>
+    </div>
+    <div class="github">
+    <img src="/favicon/github-brands-solid.svg" alt="logo github">
+    <a href="https://github.com/yadiraguzman">github</a>
+    </div>
+
+</footer>       
+<script src="encriptado.js"></script>
+  
+</body>
+
+
+</html>
